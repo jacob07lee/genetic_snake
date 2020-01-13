@@ -120,7 +120,9 @@ class Snake():
 
     #font = pygame.font.Font('/Users/brad/Library/Fonts/3270Medium.otf', 20)
     # C:\Users\jacoblee\Anaconda3\Lib\site-packages\pygame\tests\fixtures\fonts
-    font = pygame.font.Font('C:/Users/jacoblee/Anaconda3/Lib/site-packages/pygame/tests/fixtures/fonts/test_fixed.otf', 20)
+    #font = pygame.font.Font('C:/Users/kwanwoo/Anaconda3/Lib/site-packages/pygame/tests/fixtures/fonts/test_fixed.otf', 20)
+    font = pygame.font.Font('D:\\Anaconda3\\envs\\py36-pyTorch-TF-GPU-office\\Lib\site-packages\\pygame\\tests\\fixtures\\fonts\\test_fixed.otf', 20)
+
     font.set_bold(True)
     appleimage = pygame.Surface((PIXEL_SIZE, PIXEL_SIZE))
     appleimage.fill((0, 255, 0))
